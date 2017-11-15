@@ -1,0 +1,32 @@
+MNEMONIC, f, d, a
+f: 8-bit register address
+d: 0 = result -> W; 1 = result -> f-reg
+a: 0 = access, 1 = bank
+
+FSR = osoitin
+FSR0H = 0x00
+FSR0L = 0x0A
+INDF0 -> FSR0
+
+MMU = Memory Management Unit
+Heittovaihtotiedosto = Swap
+
+
+---
+**18F452**
+76 käskyä, 16 bits
+BSF - bit set
+BCF - bit clear
+BTG - bit trade
+BTFSS - skip, if b=1
+BTFSC = skip, if b = 0
+MOVLW - move literal to WREG
+MOVLB - move literal BSR
+BRA - branch
+BRA =/= GOTO
+
+
+
+
+
+
